@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="80">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="AlgFunctions"
+                   displayName="AlgFunctions"
+                   projectFiles="true">
+      <itemPath>AlgFunctions/Concave.c</itemPath>
+      <itemPath>AlgFunctions/Concave.h</itemPath>
+      <itemPath>AlgFunctions/Exterior.c</itemPath>
+      <itemPath>AlgFunctions/Exterior.h</itemPath>
+      <itemPath>AlgFunctions/GaussArea.c</itemPath>
+      <itemPath>AlgFunctions/GaussArea.h</itemPath>
+      <itemPath>AlgFunctions/GrahamScan.c</itemPath>
+      <itemPath>AlgFunctions/GrahamScan.h</itemPath>
+      <itemPath>AlgFunctions/JarvisMarch.c</itemPath>
+      <itemPath>AlgFunctions/JarvisMarch.h</itemPath>
+      <itemPath>AlgFunctions/Statistically.c</itemPath>
+      <itemPath>AlgFunctions/Statistically.h</itemPath>
+      <itemPath>AlgFunctions/Voronoi.c</itemPath>
+      <itemPath>AlgFunctions/Voronoi.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="data" displayName="data" projectFiles="true">
+      <itemPath>data/AlgConcavo.txt</itemPath>
+      <itemPath>data/AlgConvexoGraham.txt</itemPath>
+      <itemPath>data/AlgConvexoJarvis.txt</itemPath>
+      <itemPath>data/AlgEstadistico.txt</itemPath>
+      <itemPath>data/AlgExterior.txt</itemPath>
+      <itemPath>data/AlgVoronoi.txt</itemPath>
+    </logicalFolder>
+    <logicalFolder name="DataFunctions"
+                   displayName="DataFunctions"
+                   projectFiles="true">
+      <itemPath>DataFunctions/file.c</itemPath>
+      <itemPath>DataFunctions/file.h</itemPath>
+      <itemPath>DataFunctions/group.c</itemPath>
+      <itemPath>DataFunctions/group.h</itemPath>
+      <itemPath>DataFunctions/point.c</itemPath>
+      <itemPath>DataFunctions/point.h</itemPath>
+      <itemPath>DataFunctions/util.c</itemPath>
+      <itemPath>DataFunctions/util.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Alg.c</itemPath>
+      <itemPath>Alg.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>AlgFunctions</Elem>
+    <Elem>data</Elem>
+    <Elem>DataFunctions</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibStdlibItem>Mathematics</linkerLibStdlibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
